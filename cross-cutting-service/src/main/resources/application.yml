@@ -1,0 +1,16 @@
+greetings:
+  location: Sofia
+
+---
+
+spring:
+  profiles: dev
+greetings:
+  location: Dev Center
+
+---
+
+spring:
+  profiles: uat
+greetings:
+  location: Testing Center
